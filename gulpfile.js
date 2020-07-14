@@ -1,14 +1,19 @@
 const gulp = require('gulp');
 
-gulp.task('dev', function(){
-    console.log("Development mode ...");
-});
+function dev(cb){
+    gulp.task('dev', function(){
+        console.log("Development mode ...");
+    });
+    cb();
+}
 
-gulp.task('prod', function(){
-    console.log("Prodution mode ...");
-});
 
-gulp.task('default',function(){
-    
-});
+function prod(cb){
+    gulp.task('prod', function(){
+        console.log("Prodution mode ...");
+    });
+    cb();
+}
+
+exports.default = gulp.series(dev, prod);
 
