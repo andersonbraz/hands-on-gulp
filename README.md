@@ -26,6 +26,7 @@ Instalando as dependências de desenvolvimento.
 
 ```shell
 npm install gulp --save-dev
+npm install gulp-war --save-dev
 ```
 
 ## Step 04

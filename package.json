@@ -19,6 +19,7 @@
   "homepage": "https://github.com/andersonbraz/hands-on-gulp#readme",
   "devDependencies": {
     "angular": "1.5.9",
-    "gulp": "4.0.2"
+    "gulp": "4.0.2",
+    "gulp-war": "^0.1.4"
   }
 }
