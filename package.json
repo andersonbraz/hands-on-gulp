@@ -1,0 +1,23 @@
+{
+  "name": "hands-on-gulp",
+  "version": "1.0.0",
+  "description": "Hands-on with Gulp - Gulp é um kit de ferramentas Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonbraz/hands-on-gulp.git"
+  },
+  "keywords": [],
+  "author": "Anderson Braz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andersonbraz/hands-on-gulp/issues"
+  },
+  "homepage": "https://github.com/andersonbraz/hands-on-gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
