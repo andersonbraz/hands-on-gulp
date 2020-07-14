@@ -20,6 +20,6 @@
   "devDependencies": {
     "angular": "1.5.9",
     "gulp": "4.0.2",
-    "gulp-war": "^0.1.4"
+    "gulp-war": "0.1.4"
   }
 }
