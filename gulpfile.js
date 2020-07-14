@@ -7,10 +7,9 @@ function dev(cb){
     cb();
 }
 
-
 function prod(cb){
     gulp.task('prod', function(){
-        console.log("Prodution mode ...");
+        console.log("Production mode ...");
     });
     cb();
 }
